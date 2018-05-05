@@ -1,10 +1,13 @@
 synch_db.py
+
 - program to stream geospatially dependent tweets and writes to local db
 
 models.py
+
 - program that defines data models of database
 
 arcpy_create_feature_class.py
+
     - creates new feature class SentimentEstimate
         - adds fields to feature class
         - leverages proper spatial referencing
