@@ -1,7 +1,6 @@
 import os
 import arcpy, sys, traceback, datetime
 from arcpy.mapping import *
-arcpy.ImportToolbox(os.path.join(os.getcwd(), "375.tbx"))
 import sqlite3
 import settings
 import time
