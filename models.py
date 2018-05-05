@@ -18,21 +18,6 @@ class Tweet(Base):
     longitude = Column(Float)
 
 
-class TopicModel(Base):
-    __tablename__ = 'topic_model'
-    model_id = Column(Integer, primary_key=True, index=True)
-    start_datetime = Column(Text, nullable=False)
-    end_datetime = Column(Text, nullable=False)
-    serialized_model = Column(BLOB, nullable=False)
-
-
-class TopicResults(Base):
-    __tablename__ = 'topic_results'
-    topic_result_id = Column(Integer, primary_key=True, index=True)
-    topic_model_id = Column(Integer, ForeignKey('topic_model.model_id'))
-    topic_model = relationship(TopicModel)
-
-
 class TweetImage(Base):
     __tablename__ = 'image_tweets'
     tweet_image_id = Column(Integer, primary_key=True, index=True)
