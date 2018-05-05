@@ -7,7 +7,7 @@ models.py
 - program that defines data models of database
 
 arcpy_create_feature_class.py
-
+- Processes going on:
     - creates new feature class SentimentEstimate
         - adds fields to feature class
         - leverages proper spatial referencing
