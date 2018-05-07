@@ -1,5 +1,13 @@
-venv
-- virtual environment
+**before running project:**
+
+pip install from requirements.txt
+
+setup the settings.py file
+- this will require you to change the variables in the settings.py file in private_settings.py file
+
+- modify the paths to your instance of ArcGIS python
+
+**Project Descriptions**
 
 requirements.txt
 - requirements file that is excluding arcpy
