@@ -11,7 +11,7 @@ gmplot==1.2.0
 idna==2.6
 imageio==2.3.0
 jmespath==0.9.3
-nltk==3.2.5
+nltk==3.4.5
 numpy==1.14.2
 oauthlib==2.0.7
 Pillow==5.1.0
